@@ -1,1 +1,1 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/re-cROza)
+демонстрация первых 5 частей выводится в консоль.информация о книге или пользователе выводится в окно при двойном клике. при выдаче книги пользователю она удаляется из списка книг и довавляется в список книг пользователя в окне информации
