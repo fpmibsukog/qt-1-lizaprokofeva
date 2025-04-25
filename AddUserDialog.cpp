@@ -10,7 +10,7 @@ AddUserDialog::AddUserDialog(QWidget* parent)
     setWindowTitle("Add User");
     m_name = new QLineEdit(this);
     m_id = new QSpinBox(this);
-    m_id->setRange(0, 1000);
+    m_id->setRange(1, 1000);
 
     QFormLayout* formLayout = new QFormLayout;
     formLayout->addRow("Name:", m_name);

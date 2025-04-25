@@ -9,7 +9,7 @@ class LendBook : public QDialog
 {
     Q_OBJECT
 public:
-    explicit LendBook(QWidget* parent = nullptr);
+    LendBook(QWidget* parent = nullptr);
 
     QString getBookTitle() const;
     int getUserId() const;

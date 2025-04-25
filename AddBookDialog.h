@@ -9,7 +9,7 @@ class AddBookDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit AddBookDialog(QWidget* parent = nullptr);
+    AddBookDialog(QWidget* parent = nullptr);
 
     QString getTitle() const;
     QString getAuthor() const;

@@ -6,7 +6,7 @@ class SearchBookDialog : public QDialog
 {
     Q_OBJECT
 public:
-   explicit SearchBookDialog(QWidget* parent = nullptr);
+   SearchBookDialog(QWidget* parent = nullptr);
 
     QString getTitle() const;
     QString getAuthor() const;

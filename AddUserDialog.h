@@ -9,7 +9,7 @@ class AddUserDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit AddUserDialog(QWidget* parent = nullptr);
+    AddUserDialog(QWidget* parent = nullptr);
 
     QString getName() const;
     int getId() const;

@@ -11,7 +11,7 @@ class Info : public QDialog
 {
     Q_OBJECT
 public:
-    explicit Info(QWidget *parent = nullptr);
+    Info(QWidget *parent = nullptr);
     void setDetails(const std::shared_ptr<Book>& book, const std::shared_ptr<User>& user);
 
 private:
